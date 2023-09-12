@@ -16,13 +16,14 @@ CLASSIFIERS = [
 
 KEYWORDS = 'fedex soap suds wrapper rate track avs location ship pickup country availability commitment package service'
 
-setup(name='fedex',
+setup(name='ncswash-fedex',
       version=fedex.VERSION,
       description='Fedex Web Services API wrapper.',
       long_description=LONG_DESCRIPTION,
       author='Greg Taylor',
       author_email='gtaylor@gc-taylor.com',
-      maintainer='Python Fedex Developers',
+      maintainer='Nick Joyce',
+      maintainer_email='nick@stratuscode.com',
       url='https://github.com/python-fedex-devs/python-fedex',
       download_url='http://pypi.python.org/pypi/fedex/',
       packages=['fedex', 'fedex.services', 'fedex.printers'],
@@ -33,5 +34,5 @@ setup(name='fedex',
       classifiers=CLASSIFIERS,
       keywords=KEYWORDS,
       requires=['suds'],
-      install_requires=['suds-jurko'],
+      install_requires=['suds-community'],
       )

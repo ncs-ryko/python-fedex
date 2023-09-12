@@ -1,3 +1,5 @@
+Note: This was forked to publish something to PyPi that allows setuptools>=58.
+
 Python FedEx SOAP API Module
 ============================
 
