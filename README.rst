@@ -1,11 +1,11 @@
-Note: This was forked to publish something to PyPi that allows setuptools>=58.
+Note: This was forked to publish something to PyPi that allows `setuptools>=58`.
 
 Python FedEx SOAP API Module
 ============================
 
 .. image:: https://badge.fury.io/py/fedex.svg
     :target: https://badge.fury.io/py/fedex
-    
+
 .. image:: https://travis-ci.org/python-fedex-devs/python-fedex.svg?branch=master
     :target: https://travis-ci.org/python-fedex-devs/python-fedex
 
@@ -40,16 +40,15 @@ Quick Start
 -----------
 
 - Clone this repository.
-
 - Edit the `example_config.py` file in See `examples/ <examples/>`_ with your fedex credentials
-and run any of the provided examples.
+  and run any of the provided examples.
 
 Documentation
 -------------
 
 Refer to the documentation_ for more details on the project. Latest doc builds
 are found in docs_ and doc build scripts in doc_source_. Sphinx documentation is in doc_src_.
-    
+
 There are also a lot of useful examples under the examples directory within
 this directory.
 
@@ -58,7 +57,7 @@ Support
 
 Issues & Questions: https://github.com/gtaylor/python-fedex/issues
 
-Most problems are going to require investigation or a submitted 
+Most problems are going to require investigation or a submitted
 pull request by someone from the Python FedEx Developers organization.
 To contribute a new feature or service, feel free to create a pull request.
 We are always looking for new contributors to help maintain the project.
